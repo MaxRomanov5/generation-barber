@@ -388,3 +388,36 @@ body {
 	display: flex;
 	gap: 30px;
 }
+
+
+.price-section .title {
+	margin-bottom: 44px;
+}
+
+.price-container {
+	display: flex;
+	gap: 30px;
+}
+
+.price-list {
+	padding: 30px 20px;
+	width: 570px;
+}
+
+.price-item{
+	display: flex;
+	align-items: baseline;
+}
+
+.price-item .value {
+	order: 3;
+}
+
+.price-item::before {	
+	content: "";
+	height: 1px;
+	flex-grow: 1;
+	background-color: #9DA4BD1F;
+	order: 2;
+}
+
